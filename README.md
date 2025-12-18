@@ -116,3 +116,18 @@ AI tools such as ChatGPT were used for architectural guidance and code review.
 All machine learning logic, feature engineering, model training, and validation
 were implemented and verified independently.
 
+
+## Running on Windows
+
+This project is a CLI-based Python tool and has been verified on a clean Windows machine.
+
+```powershell
+
+git clone https://github.com/Tejayadagani/learning-intelligence-tool
+cd learning-intelligence-tool
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python src\cli.py --input data\sample_input.csv
+
+
